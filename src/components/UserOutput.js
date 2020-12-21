@@ -1,11 +1,17 @@
 import React from 'react';
 
 const UserOutput = (props) => {
+
+    const style = {
+        backgroundColor: 'red'
+    };
+
     return (
         <div>
-            <p>User name = {props.name}</p>
+            <p>Some text</p>
+            <p style={style}>User name = {props.name}</p>
         </div>
     );
 }
 
-export { UserOutput as default};
+export { UserOutput as default };
